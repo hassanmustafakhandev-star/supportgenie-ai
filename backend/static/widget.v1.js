@@ -3,7 +3,7 @@
     const script = document.currentScript;
     const agentId = script.getAttribute('data-agent-id');
     const theme = script.getAttribute('data-theme') || 'dark';
-    const frontendUrl = window.location.origin.includes('localhost') ? 'http://localhost:3000' : 'https://supportgenie.vercel.app'; // Replace with real URL
+    const frontendUrl = window.location.origin.includes('localhost') ? 'http://localhost:3000' : 'https://YOUR_FRONTEND_URL.vercel.app'; // UPDATE THIS after deploying to Vercel
 
     if (!agentId) {
         console.error('SupportGenie: Missing data-agent-id attribute.');

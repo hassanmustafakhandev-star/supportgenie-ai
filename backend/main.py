@@ -10,7 +10,7 @@ app = FastAPI(title="SupportGenie AI Backend")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, restrict to frontend URL
+    allow_origins=["*"], # In production, you should set this to your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

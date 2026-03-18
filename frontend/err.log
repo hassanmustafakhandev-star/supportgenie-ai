@@ -1,0 +1,133 @@
+
+> supportgenie-frontend@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.3
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+TypeError: Cannot read properties of undefined (reading 'S')
+    at e.exports (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:81:97309)
+    at E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4737
+    at 7319 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4775)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 1144 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\page.js:25:7334)
+    at Object.t [as require] (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at require (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:16:18365)
+    at I (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:94362)
+    at C (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:92913)
+    at rP (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:33974) {
+  digest: '2542496990'
+}
+
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of undefined (reading 'S')
+    at e.exports (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:81:97309)
+    at E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4737
+    at 7319 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4775)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 1144 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\page.js:25:7334)
+    at Object.t [as require] (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at require (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:16:18365)
+    at I (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:94362)
+    at C (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:92913)
+    at rP (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:33974)
+TypeError: Cannot read properties of undefined (reading 'S')
+    at e.exports (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:81:97309)
+    at E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4737
+    at 7319 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4775)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 1144 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\_not-found\page.js:1:3595)
+    at Object.t [as require] (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at require (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:16:18365)
+    at I (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:94362)
+    at C (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:92913)
+    at rP (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:33974) {
+  digest: '3419787756'
+}
+
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of undefined (reading 'S')
+    at e.exports (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:81:97309)
+    at E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4737
+    at 7319 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:85:4775)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 1144 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\_not-found\page.js:1:3595)
+    at Object.t [as require] (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at require (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:16:18365)
+    at I (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:94362)
+    at C (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:92913)
+    at rP (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:33974)
+P [FirebaseError]: Firebase: Error (auth/invalid-api-key).
+    at _ (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:523)
+    at b (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:571)
+    at i.instanceFactory (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:401)
+    at a.getOrInitializeService (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2773)
+    at a.initialize (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2148)
+    at eB (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:878:181)
+    at tR (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:1070)
+    at 8604 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\register\page.js:1:11809)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 2183 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\register\page.js:1:4058) {
+  code: 'auth/invalid-api-key',
+  customData: { appName: '[DEFAULT]' },
+  digest: '1702885624'
+}
+
+Error occurred prerendering page "/register". Read more: https://nextjs.org/docs/messages/prerender-error
+
+FirebaseError: Firebase: Error (auth/invalid-api-key).
+    at _ (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:523)
+    at b (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:571)
+    at i.instanceFactory (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:401)
+    at a.getOrInitializeService (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2773)
+    at a.initialize (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2148)
+    at eB (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:878:181)
+    at tR (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:1070)
+    at 8604 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\register\page.js:1:11809)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 2183 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\register\page.js:1:4058)
+P [FirebaseError]: Firebase: Error (auth/invalid-api-key).
+    at _ (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:523)
+    at b (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:571)
+    at i.instanceFactory (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:401)
+    at a.getOrInitializeService (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2773)
+    at a.initialize (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2148)
+    at eB (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:878:181)
+    at tR (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:1070)
+    at 8604 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\login\page.js:1:11763)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 4929 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\login\page.js:1:3559) {
+  code: 'auth/invalid-api-key',
+  customData: { appName: '[DEFAULT]' },
+  digest: '1137423062'
+}
+
+Error occurred prerendering page "/login". Read more: https://nextjs.org/docs/messages/prerender-error
+
+FirebaseError: Firebase: Error (auth/invalid-api-key).
+    at _ (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:523)
+    at b (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:473:571)
+    at i.instanceFactory (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:401)
+    at a.getOrInitializeService (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2773)
+    at a.initialize (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:263:2148)
+    at eB (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:878:181)
+    at tR (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\chunks\924.js:1253:1070)
+    at 8604 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\login\page.js:1:11763)
+    at t (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\webpack-runtime.js:1:128)
+    at 4929 (E:\myproject\SupportGenie AI (Custom RAG-based SaaS)\frontend\.next\server\app\login\page.js:1:3559)
+
+> Export encountered errors on following paths:
+	/_not-found/page: /_not-found
+	/login/page: /login
+	/page: /
+	/register/page: /register
