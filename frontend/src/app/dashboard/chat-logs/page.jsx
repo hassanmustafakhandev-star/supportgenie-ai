@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react";
+"use client";
+
+import { useState, useEffect, Suspense } from "react";
 import { Search, Filter, MessageSquare, Bot, User, Clock, ChevronDown, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useSearchParams } from "next/navigation";
-import { getBots, sendChatMessage, getChatHistory } from "@/lib/api"; // Note: actually need a get_all_chats endpoint or specific bot chats
+import { getBots, getChatHistory } from "@/lib/api"; 
 import { 
     DropdownMenu, 
     DropdownMenuContent, 
@@ -12,7 +14,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/context/AuthContext";
 
-export default function ChatLogsPage() {
+function ChatLogsContent() {
     const searchParams = useSearchParams();
     const botIdParam = searchParams.get("botId");
     
@@ -210,5 +212,17 @@ export default function ChatLogsPage() {
                 </div>
             </div>
         </div>
+    );
+}
+
+export default function ChatLogsPage() {
+    return (
+        <Suspense fallback={
+            <div className="flex items-center justify-center p-12">
+                <Loader2 className="w-8 h-8 text-blue-500 animate-spin" />
+            </div>
+        }>
+            <ChatLogsContent />
+        </Suspense>
     );
 }
