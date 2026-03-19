@@ -2,7 +2,7 @@
 
 SupportGenie AI is a powerful, ready-to-deploy SaaS platform that allows businesses to create custom AI support agents trained on their own data (Websites, PDFs, FAQs). Built with a modern tech stack, it features a slick futuristic dashboard, real-time analytics, and an embeddable chat widget.
 
-![Dashboard Preview](https://via.placeholder.com/800x450?text=SupportGenie+Dashboard+Preview)
+![Dashboard Preview](https://supportgenie-ai-phh4.vercel.app/)
 
 ## 🚀 Features
 
